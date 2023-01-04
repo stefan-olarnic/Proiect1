@@ -1,0 +1,26 @@
+.banner-section {
+    background: url(/img/1022244-artwork-fantasy-art-water-fall-mountains-landscape-forest-colorful-sunlight.jpg) no-repeat;
+    background-size: cover;
+}
+
+.text-banner {
+  height: 50vh;
+}
+
+.avatar-ceo {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+ul.nav a:hover {
+  color: #25B303;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 640px) {
+  .tel-screen {
+    flex-basis: 5rem;
+  }
+}

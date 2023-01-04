@@ -1,0 +1,9 @@
+.banner-section {
+    background: url("/img/fantasy-3890403.jpg") no-repeat;
+    background-size: cover;
+}
+
+.bg-section {
+    background: rgb(19,14,96);
+    background: linear-gradient(180deg, rgba(19,14,96,1) 0%, rgba(233,128,216,1) 0%, rgba(173,2,95,1) 70%);
+}

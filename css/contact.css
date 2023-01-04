@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-section {
+    background: url(/img/magic-stone.jpg.crdownload) no-repeat;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+.contact {
+    flex-basis: 50%;
+}
+
+ul.nav a:hover {
+    color: red;
+  }
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
+
+
